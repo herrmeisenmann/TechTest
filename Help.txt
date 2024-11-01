@@ -1,0 +1,22 @@
+ var requestBody = await req.ReadAsStringAsync();
+ var data = JsonConvert.DeserializeObject<CalcRequest>(requestBody);
+
+// todo
+var result = 0;
+
+return new OkObjectResult(new CalcResponse { Result = result });
+
+
+
+
+
+
+public class CalcRequest
+{
+    public string Expression { get; set; }
+}
+
+public class CalcResponse
+{
+    public int Result { get; set; }
+}

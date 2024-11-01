@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTestCalc", "TechTestCalc\TechTestCalc.csproj", "{A27AD83B-8A6A-4E38-BB6C-EBCDE7C006F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A40656C-001E-4CD6-A01A-9B594263D82B}"
+	ProjectSection(SolutionItems) = preProject
+		Help.txt = Help.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTestUnitTests", "TechTestUnitTests\TechTestUnitTests.csproj", "{C6A241CF-C7E9-4890-AA3D-5D791098496A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A27AD83B-8A6A-4E38-BB6C-EBCDE7C006F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27AD83B-8A6A-4E38-BB6C-EBCDE7C006F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27AD83B-8A6A-4E38-BB6C-EBCDE7C006F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27AD83B-8A6A-4E38-BB6C-EBCDE7C006F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A241CF-C7E9-4890-AA3D-5D791098496A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A241CF-C7E9-4890-AA3D-5D791098496A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A241CF-C7E9-4890-AA3D-5D791098496A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A241CF-C7E9-4890-AA3D-5D791098496A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2CD0BE0-8280-4D4A-8ECC-0039EA13AC8D}
+	EndGlobalSection
+EndGlobal
